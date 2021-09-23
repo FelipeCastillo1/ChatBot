@@ -1,0 +1,178 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Como estas",
+                "¿Hay alguien ahi?",
+                "Oye",
+                "Hola",
+                "Buenas tardes",
+                "Buen dia" 
+            ],
+            "responses": [
+                "Hola, ¿como puedo ayudar?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "consulta",
+            "patterns": [
+                "Precio tarjeta 1",
+                "Valor tarjeta 1"
+            ],
+            "responses": [
+                "Tiene un valor de $1500, ¿Deseas comprarla?. Tenemos metodo de pago en efectivo, tarjeta debito/credito"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "consulta1",
+            "patterns": [
+                "Precio tarjeta 2",
+                "Valor tarjeta 2"
+            ],
+            "responses": [
+                "Tiene un valor de $2500, ¿Deseas comprarla?. Tenemos metodo de pago en efectivo, tarjeta debito/credito"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "consulta2",
+            "patterns": [
+                "Precio tarjeta 3",
+                "Valor tarjeta 3"
+            ],
+            "responses": [
+                "Tiene un valor de $3500, ¿Deseas comprarla?. Tenemos metodo de pago en efectivo, tarjeta debito/credito"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "compra",
+            "patterns": [
+                "Efectivo",
+                "Al chinchin",
+                "cash"
+            ],
+            "responses": [
+                "Muchas gracias por su compra, vuelta pronto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "compra1",
+            "patterns": [
+                "Debito",
+                "Quiero pagar con debito",
+                "Con debito",
+                "Con tarjeta de debito"
+            ],
+            "responses": [
+                "Perfecto, opere tarjeta"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "compra2",
+            "patterns": [
+                "Credito",
+                "Quiero pagar con credito",
+                "Con credito",
+                "Quiero pagar con tarjeta de credito"
+            ],
+            "responses": [
+                "Perfecto, tenemos 3, 6 o 12 cuotas"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cuotas3",
+            "patterns": [
+                "3",
+                "3 cuotas",
+                "tres",
+                "en tres cuotas",
+                "en 3 cuotas"
+            ],
+            "responses": [
+                "Muchas gracias por su compra, vuelta pronto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cuotas6",
+            "patterns": [
+                "6",
+                "6 cuotas",
+                "seis",
+                "en seis cuotas",
+                "en 6 cuotas"
+            ],
+            "responses": [
+                "Muchas gracias por su compra, vuelta pronto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cuotas12",
+            "patterns": [
+                "12",
+                "12 cuotas",
+                "doce",
+                "en doce cuotas",
+                "en 12 cuotas"
+            ],
+            "responses": [
+                "Muchas gracias por su compra, vuelta pronto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gracias",
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Genial gracias",
+                "Gracias por ayudarme" 
+            ],
+            "responses": [
+                "Encantado de ayudar"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "SinRespuesta",
+            "patterns": [],
+            "responses": [
+                "Lo siento, no puedo entenderte"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
